@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(#b34b2c, #f0bc14);
+}
+.logo{
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    margin: auto;
+}
+.br {
+    margin-top: 200px;
+}
+#logo3{
+    background: url(logo3.png);
+}
+#logo4{
+    background: url(logo4.png);
+    width: 450px;
+    height: 500px;
+}
+#logo5{
+    background: url(logo5.png);
+    width: 800px;
+    height: 1162px;
+}
+#logo6{
+    background: url(logo6.png);
+    width: 763px;
+    height: 1181px;
+    
+}
+#logo7{
+    background: url(logo7.png);
+    height: 500px;
+    width: 735px;
+}
+#oxirgi{
+    background: url(oxirgi.png);
+    width: 400px;
+    height: 540px;
+}
+
+@media (max-width: 480px) {
+    body {
+        background: linear-gradient(#403075, #882D61);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background: linear-gradient(#efff0a, #a3e014);
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+	    background: linear-gradient(#b34b2c, #f0bc14);
+   }
+}
